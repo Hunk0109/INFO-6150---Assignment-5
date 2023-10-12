@@ -1,0 +1,21 @@
+// Example Theme 1
+:root {
+    --primary-color: #007acc; // Change primary color
+    --secondary-color: #222;  // Change secondary color
+    --text-color: #fff;      // Change text color
+    --background-color: #333; // Change background color
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  header {
+    background-color: var(--primary-color);
+  }
+  
+  footer {
+    background-color: var(--secondary-color);
+  }
+  

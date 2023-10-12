@@ -1,0 +1,27 @@
+// Example of nesting
+header {
+    background-color: var(--primary-color);
+    color: #fff;
+  
+    nav {
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+  
+        li {
+          display: inline;
+          margin-right: 20px;
+  
+          a {
+            text-decoration: none;
+            color: #fff;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+  

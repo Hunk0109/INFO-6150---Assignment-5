@@ -1,0 +1,26 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+  }
+  
+  #about,
+  #experience,
+  #projects,
+  #certifications-gallery {
+    grid-column: span 1;
+  }
+  
+  #about {
+    grid-row: span 3;
+  }
+  
+  #experience {
+    grid-row: span 2;
+  }
+  
+  #projects,
+  #certifications-gallery {
+    grid-row: span 1;
+  }
+  

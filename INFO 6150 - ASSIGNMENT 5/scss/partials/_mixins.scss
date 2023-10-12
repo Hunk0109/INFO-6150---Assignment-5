@@ -1,0 +1,11 @@
+// Example of a mixin
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    @include flex-center;
+  }
+  

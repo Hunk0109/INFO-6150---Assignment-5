@@ -1,0 +1,9 @@
+// Example of a SASS function
+@function calculate-padding($size) {
+    @return $size * 10px;
+  }
+  
+  .container {
+    padding: calculate-padding(2);
+  }
+  

@@ -1,0 +1,14 @@
+// Example of a Flexbox layout
+.container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column {
+    flex: 1;
+  }
+  
+  #contact {
+    flex: 2;
+  }
+  

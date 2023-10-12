@@ -1,0 +1,163 @@
+// Import SASS partials with features
+@import 'partials/variables';
+@import 'partials/custom-properties';
+@import 'partials/nesting';
+@import 'partials/interpolation';
+@import 'partials/placeholder-selectors';
+@import 'partials/mixins';
+@import 'partials/functions';
+
+// Import SASS layouts
+@import 'layouts/grid-layout1';
+@import 'layouts/grid-layout2';
+@import 'layouts/flexbox-layout1';
+@import 'layouts/flexbox-layout2';
+
+// Import SASS themes (if any)
+@import 'themes/theme1';
+@import 'themes/theme2';
+
+// General styles
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+
+  h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+
+  nav {
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        display: inline;
+        margin-right: 20px;
+
+        a {
+          text-decoration: none;
+          color: #fff;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+// Add specific styling for your grid and flexbox layouts
+// Example grid layout:
+@import 'layouts/grid-layout1';
+
+// Example flexbox layout:
+@import 'layouts/flexbox-layout1';
+
+// Styling for your HTML sections
+section {
+  padding: 20px;
+
+  h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+
+    td {
+      border: 1px solid #ccc;
+      padding: 8px;
+    }
+  }
+
+  audio {
+    width: 100%;
+  }
+
+  // Add more specific styling as needed
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+// Additional styling for specific elements on your pages
+#about {
+  // Add specific styles for the About section
+}
+
+#experience {
+  // Add specific styles for the Experience section
+}
+
+#projects {
+  // Add specific styles for the Projects section
+}
+
+#certifications-gallery {
+  // Add specific styles for the Certifications & Gallery section
+}
+
+#contact {
+  // Add specific styles for the Contact section
+}
+
+// Define your SASS variables and styles for different themes (if needed)
+@import 'themes/theme1';
+@import 'themes/theme2';
+
+/* Updated image styling for a larger size */
+.gallery {
+    display: flex;
+    justify-content: space-between;
+
+    figure {
+        width: 1200px; /* Increase the width as needed */
+        height: 100px; /* Adjust the height as needed */
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+    }
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 5px;
+    }
+
+    figcaption {
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+}
+
+  

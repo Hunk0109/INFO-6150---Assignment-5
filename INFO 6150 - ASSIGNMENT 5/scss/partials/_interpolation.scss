@@ -1,0 +1,9 @@
+// Example of interpolation
+$selector: "footer";
+
+#{$selector} {
+  background-color: var(--secondary-color);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
